@@ -24,6 +24,6 @@ public void testFast() {
   
  @Test
     public void testCalc1(){
-      assertEquals("Result",19,myCal.multiply(3,6));
+      assertEquals("Result",240,myCal.multiply(40,6));
     }
 }
