@@ -19,4 +19,9 @@ public void testFast() {
     public void testCalc(){
       assertEquals("Result",9,9);
     }
+  
+ @Test
+    public void testCalc(){
+      assertEquals("Result",9,9);
+    }
 }
