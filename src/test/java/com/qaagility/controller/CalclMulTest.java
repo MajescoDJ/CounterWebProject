@@ -16,7 +16,7 @@ public void testFast() {
   }
 
  @Test
-    public void testCalc(
+    public void testCalc(){
       assertEquals("Result",9,9);
-    )
+    }
 }
