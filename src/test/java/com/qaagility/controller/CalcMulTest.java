@@ -2,10 +2,9 @@ package com.qaagility.controller;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
-/*
 public class CalcMulTest {
   CalcMul myCal = new CalcMul();
-  
+/*  
   public void testSlow() {
      System.out.println("slow");
   }
