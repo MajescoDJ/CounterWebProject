@@ -3,6 +3,8 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class CalcMulTest {
+  CalcMul myCal = new CalcMul();
+  
   public void testSlow() {
      System.out.println("slow");
   }
@@ -17,11 +19,11 @@ public void testFast() {
 
  @Test
     public void testCalc(){
-      assertEquals("Result",9,9);
+      assertEquals("Result",18,myCal(3,6));
     }
   
  @Test
     public void testCalc1(){
-      assertEquals("Result Failed",90,9);
+      assertEquals("Result",19,myCal(3,6));
     }
 }
