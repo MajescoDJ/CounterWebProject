@@ -24,6 +24,6 @@ public void testFast() {
     public void testCalc(){
       assertEquals("DJ",18,myCal.multiply(3,6));
       assertEquals("DJ",1800,myCal.multiply(30,60));
-      assertEquals("DJ",180,myCal.multiply(3,6));
+      assertEquals("DJ",90,myCal.multiply(3,30));
     }
 }
