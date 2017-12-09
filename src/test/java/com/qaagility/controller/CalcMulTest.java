@@ -2,6 +2,7 @@ package com.qaagility.controller;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
+/*
 public class CalcMulTest {
   CalcMul myCal = new CalcMul();
   
@@ -16,7 +17,7 @@ public void testSlower() {
 public void testFast() {
      System.out.println("fast-updated");
   }
-
+*/
  @Test
     public void testCalc(){
       assertEquals("Result",18,myCal.multiply(3,6));
