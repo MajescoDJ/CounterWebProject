@@ -23,10 +23,7 @@ public void testFast() {
  @Test
     public void testCalc(){
       assertEquals("DJ",18,myCal.multiply(3,6));
-    }
-  
- @Test
-    public void testCalc1(){
-      assertEquals("DJ",240,myCal.multiply(40,6));
+      assertEquals("DJ",1800,myCal.multiply(30,60));
+      assertEquals("DJ",180,myCal.multiply(3,6));
     }
 }
